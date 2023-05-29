@@ -192,6 +192,7 @@ module {
 		estimate_withdrawal_fee : estimate_withdrawal_fee;
 		get_deposit_fee : get_deposit_fee;
 		get_withdrawal_account : get_withdrawal_account;
+		retrieve_btc : retrieve_btc;
 		retrieve_btc_status : retrieve_btc_status;
 		/// The minter keeps track of all state modifications in an internal event log.
 		///
