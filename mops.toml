@@ -1,0 +1,6 @@
+[package]
+name = "ckbtc-types"
+version = "0.1.0"
+description = "Types and interfaces for interacting with ckBTC canisters(minter, ledger, index, archive)"
+repository = "https://github.com/ZenVoich/ckbtc-types"
+license = "MIT"
