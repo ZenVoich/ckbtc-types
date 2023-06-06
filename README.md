@@ -1,22 +1,22 @@
 # ckBTC canisters interface
 
 
-## ckBTC canister ids (Bitcoin testnet)
+## ckTESTBTC canister ids (Bitcoin testnet)
 
-ckBTC Minter - `ml52i-qqaaa-aaaar-qaaba-cai`
+ckTESTBTC Minter - `ml52i-qqaaa-aaaar-qaaba-cai`
 
-ckBTC Ledger - `mc6ru-gyaaa-aaaar-qaaaq-cai`
+ckTESTBTC Ledger - `mc6ru-gyaaa-aaaar-qaaaq-cai`
 
-ckBTC Index - `mm444-5iaaa-aaaar-qaabq-cai`
+ckTESTBTC Index - `mm444-5iaaa-aaaar-qaabq-cai`
 
-ckBTC Archive - `m62lf-ryaaa-aaaar-qaacq-cai`
+ckTESTBTC Archive - `m62lf-ryaaa-aaaar-qaacq-cai`
 
 
 ## ckBTC canister ids (Bitcoin mainnet)
 
 ckBTC Minter - `mqygn-kiaaa-aaaar-qaadq-cai`
 
-ckBTC Ledger - `r7inp-6aaaa-aaaaa-aaabq-cai`
+ckBTC Ledger - `mxzaz-hqaaa-aaaar-qaada-cai`
 
 ckBTC Index - `n5wcd-faaaa-aaaar-qaaea-cai`
 
@@ -29,7 +29,7 @@ ckBTC Archive - `nbsys-saaaa-aaaar-qaaga-cai`
 import CKBTC "mo:ckbtc-types";
 
 let ckbtcMinter = actor("mqygn-kiaaa-aaaar-qaadq-cai") : CKBTC.Minter.Service;
-let ckbtcLedger = actor("r7inp-6aaaa-aaaaa-aaabq-cai") : CKBTC.Ledger.Service;
+let ckbtcLedger = actor("mxzaz-hqaaa-aaaar-qaada-cai") : CKBTC.Ledger.Service;
 let ckbtcIndex = actor("n5wcd-faaaa-aaaar-qaaea-cai") : CKBTC.Index.Service;
 let ckbtcArchive = actor("nbsys-saaaa-aaaar-qaaga-cai") : CKBTC.Archive.Service;
 ```
